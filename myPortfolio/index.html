@@ -4,384 +4,197 @@
 <head>
 
 	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
 	<title>Portfolio</title>
-	<meta name="description" content="Startup HTML template OptimizedHTML 5">
-	<meta name="viewport" content="width=device-width">
-	<link rel="icon" href="images/favicon.png">
-	<meta property="og:image" content="images/dest/preview.jpg">
-	<link rel="stylesheet" href="css/app.min.css">
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="libs/slick/slick-theme.css">
+	<link rel="stylesheet" href="libs/slick/slick.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.min.css">
 
 </head>
 
 <body>
-	<!-- CUSTOM HTML -->
 
-<div class="wrapper">
-    <header class="header" id='header'>        
-        <div class="container header__container"> 
-             <div class="hamburger hamburger--collapse">
-              <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-            </span>
-            </div><!-- hamburger -->          
-            <div class="header__el-flex header__avatar">
-                <div class="icon">
-                    <picture>
-                        <source srcset="images/avatar__photo.webp" type="image/webp">
-                        <img src="images/avatar__photo.jpg" alt="Аватарка разработчика">
-                    </picture>                    
-                </div>
-                <!-- /.icon -->
-                <div class="header__avatar-text">
-                    <p class="name">Бакум Артем</p>
-                    <p class="profession">фронтенд разработчик</p>
-                </div>
-                <!-- /.header__avatar-text -->
-            </div>
-            <!-- /.header__avatar -->
+	<!-- Custom HTML -->
+	<div class="container">			
+		<header class="header" style="background-image: url(img/bg.jpg);">		
+			<div class="text" >
+				<h1>Бакум Артем</h1>
+				<p>Кроссбраузерная, адаптивная верстка <br>сайтов на HTML и CSS</p>
+				<p>HTML5 CSS3 JS jQuery</p>
+			</div><!-- text -->	
+			<i class="fa fa-angle-down"></i>				
+		</header>		
+<!-- /.header -->
+	</div><!-- /.container -->
+				
+	<section class="portfolio">
+		<div class="container">
+			<h2>Портфолио</h2>			
+				<div class="sliders">					
+					<div class="slider">
+						<a href="gosuf/index.html">						
+							<img src="img/gosuf.png" alt="Проект">
+						</a>
+						<a href="gosuf/index.html"><h3>gosuf</h3></a>
+						<p>Адаптивная верстка сложного одностраничного PSD макета с применением анимации</p>
+					</div>								
+					<div class="slider">
+						<a href="ASUSS/index.html"><picture>
+							<source srcset="img/asuss.webp" type="image/webp">
+							<img src="img/asuss.png" alt="Проект">
+						</picture></a>
+						<a href="ASUSS/index.html"><h3>asuss</h3></a>
+						<p>Адаптивная верстка одностраничного PSD макета с применением анимации</p>
+					</div>
+					
+					<div class="slider">
+						<a href="MMG/index.html"><picture>
+							<source srcset="img/mmg.webp" type="image/webp">
+							<img src="img/mmg.png" alt="Проект">
+						</picture></a>
+						<a href="MMG/index.html"><h3>mmg</h3></a>
+						<p>Верстка одностраничного PSD макета</p>
+					</div>				
+				<div class="slider">
+					<a href="Creativia/index.html"><picture>
+						<source srcset="img/Creativia.webp" type="image/webp">
+						<img src="img/Creativia.png" alt="Проект">
+					</picture></a>
+					<a href="Creativia/index.html"><h3>Creativia</h3></a>
+					<p>Верстка одностраничного сайта. Адаптация под мобильные устроства.</p>
+				</div>MMG
+				<div class="slider">
+					<a href="Lian/index.html"><picture>
+						<source srcset="img/Lian.webp" type="image/webp">
+						<img src="img/Lian.png" alt="Проект">
+					</picture></a>
+					<a href="Lian/index.html"><h3>Lian</h3></a>
+					<p>Адаптивная верстка многостраничного  PSD макета</p>	
+				</div>
 
-            <div class="header__el-flex header__menu">
-                <nav class="header__menu-nav">
-                    <ul class="header__menu-list">
-                       <li><a href="#">работы</a></li>
-                       <li><a href="#">обо мне</a></li>                       
-                       <li><a href="#">контакты</a></li>
-                   </ul>
-                   <!-- /.nav-menu -->
-               </nav>         
-            </div>
-            <!-- /.header__menu -->
-            <a href="https://t.me/Artem19811606" class="header__el-flex button">написать мне</a>
-        </div><!-- /.container header__container --> 
-    </header> <!-- /.header -->
+				<div class="slider">
+					<a href="Oursson/index.html"><picture>
+						<source srcset="img/Oursson.webp" type="image/webp">
+						<img src="img/Oursson.png" alt="Проект">
+					</picture></a>
+					<a href="Oursson/index.html"><h3>Oursson</h3></a>
+					<p>Адаптивная верстка многостраничного  PSD макета магазина кухонной техники</p>	
+				</div>
+				<div class="slider">
+					<a href="home/index.html"><picture>
+						<source srcset="img/home.webp" type="image/webp">
+						<img src="img/home.png" alt="Проект">
+					</picture></a>
+					<a href="home/index.html"><h3>home</h3></a>
+					<p>Верстка одностраничного PSD макета строительной компании</p>
+				</div>
+				
+				<div class="slider">
+					<a href="Decoblog/index.html"><picture>
+						<source srcset="img/Decoblog.webp" type="image/webp">
+						<img src="img/Decoblog.png" alt="Проект">
+					</picture></a>
+					<a href="Decoblog/index.html"><h3>Decoblog</h3></a>
+					<p>Адаптивная верстка одностраничного  PSD макета</p>
+				</div>
+				<div class="slider">
+					<a href="zebra/index.html"><picture>
+						<source srcset="img/zebra.webp" type="image/webp">
+						<img src="img/zebra.png" alt="Проект">
+					</picture></a>
+					<a href="zebra/index.html"><h3>Zebra</h3></a>
+					<p>Верстка  PSD макета интернет магазина</p>
+				</div>
+				<div class="slider">
+					<a href="start/index.html"><picture>
+						<source srcset="img/start.webp" type="image/webp">
+						<img src="img/start.png" alt="Проект">
+					</picture></a>
+					<a href="start/index.html"><h3>Start</h3></a>
+					<p>Адаптивная верстка одностраничного PSD макета</p>
+				</div>
+				<div class="slider">
+					<a href="surfingClub/index.html"><picture>
+						<source srcset="img/surfingClub.webp" type="image/webp">
+						<img src="img/surfingClub.png" alt="Проект">
+					</picture></a>
+					<a href="surfingClub/index.html"><h3>surfingClub</h3></a>
+					<p>Адаптивная верстка одностраничного PSD макета</p>
+				</div>
+				
+				
+			<div class="slider">
+				<a href="Luis/index.html"><picture>
+					<source srcset="img/Luis.webp" type="image/webp">
+					<img src="img/Luis.png" alt="Проект">
+				</picture></a>
+				<a href="Luis/index.html"><h3>Luis Ourenrique</h3></a>
+				<p>Адаптивная верстка одностраничного  PSD макета</p>
+			</div>
+			</div>
+		</div><!-- container -->
+	</section>
+	<!-- /.portfolio -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row justify-content-center justify-content-lg-around  align-items-start">
+				<div class="col-9 col-md-auto">
+					<div class="block name">
+						<h3>Бакум Артем</h3>
+						<p>HTML верстка и разработка сайтов</p>
+					</div>
+				</div>
+				<!-- /.col-lg-4 -->
+				<div class="col-9 col-md-auto">
+					<p>Мои профили в социальных сетях</p>
+					<div class="block cos d-flex j justify-content-around">
+						<a href="https://vk.com/id422379637">
+							<i class="fa fa-vk"></i></a>		
+						<a href="https://ok.ru/profile/565388341183">
+							<i class="fa fa-odnoklassniki"></i></a>
+					</div>
+					<!-- /.cos -->
+					
+				</div>
+				<!-- /.col-lg-4 -->
+				<div class="col-9 col-md-auto">
+					<div class="block contact">
+						<div class="button"><a href="https://vk.com/id422379637">Связаться в контакте</a></div>
+						<p>Напишите мне, чтобы заказать или узнать<br>
+						стоимость верстки вашего проекта</p> 
+					</div><!-- contact -->
+				</div>
+				<!-- /.col-lg-4 -->
+			</div>
+			<!-- /.row -->
+		</div><!-- container -->
+	</footer>
 
-    <section class="introduce" id="introduce">
-     <div class="container introduce__container">
-        <div class="introduce__info">   
-          <div class="introduce__title"
-          >
-          <h2>Привет, я</h2>
-          <h1>Бакум Артем</h1>
-          <p>фронтенд разработчик</p>
-
-      </div><!-- introduce__title -->
-      <div class="introduce__socials">        
-        <a href='https://t.me/Artem19811606' class="social-icon telegram"><img src="images/Icons/telegram.svg" alt="Icon of telegram"></a>
-        <a href='https://join.skype.com/invite/fJEsoWVzNQq9' class="social-icon skype"><img src="images/Icons/skype.svg" alt="Icon of skype"></a>
-        <a href='https://ok.ru/artem.bakum' class="social-icon classmates"><img src="images/Icons/odnoklassniki-logo.svg" alt="Icon of classmates"></a>        
-        <a href='https://www.facebook.com/profile.php?id=100051063345712' class="social-icon fb"><img src="images/Icons/fb.png" alt="Icon of facebook"></a>
-        <a href='https://vk.com/a.bakum' class="social-icon vk"><img src="images/Icons/vk.svg" alt="Icon of contact"></a>           
-      </div> <!-- introduce__socials -->
-    <div class="buttons"> 
-        <a href="https://t.me/Artem19811606" class="button button-write button--left">написать мне</a>
-        <a href="#" class="button button--right">see my resume</a></div>
-    </div><!-- introduce__info --> 
-    <div class="introduce__photo" style='background-image: url(images/symbols.png);'>
-    <picture>
-        <source srcset="images/Аватарка.webp" type="image/webp">
-        <img src="images/Аватарка.jpg" alt="Фотография разработчика">
-    </picture>     
-    </div><!-- introduce__photo -->    
-    </div><!-- container -->
-    </section><!-- introduce -->
-
-    <section class="works" id="works">
-        <div class="container works__container">
-            <h2 class='works__title'>Portfolio</h2>          
-            <div class="works__samples">
-                <a href='https://artem1606.github.io/gosuf' class="works__item">
-                    <div class="works__item-img">                         
-                    	<div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/Gosuf.webp" type="image/webp">
-                            <img src="images/projects/Gosuf.jpg" alt="Образец верстки">
-                        </picture> 
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">Gosuf</div>                                                        
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка сложного одностраничного Figma макета с применением
-                        анимации</div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='https://artem1606.github.io/assus' class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/Assus.webp" type="image/webp">
-                            <img src="images/projects/Assus.jpg" alt="Образец верстки">
-                        </picture>                        
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">Assus</div>                            
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка одностраничного PSD макета с применением анимации
-                        </div>
-                    </div>
-                </a><!-- works__item --><!-- works__item --> 
-                <a href='https://artem1606.github.io/portfolio' class="works__item">
-                    <div class="works__item-img">
-                        <div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/Portfolio.webp" type="image/webp">
-                            <img src="images/projects/Portfolio.jpg" alt="Образец верстки">
-                        </picture>                        
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">Portfolio</div>                            
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка одностраничного PSD макета сайта портфолио
-                        </div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='https://artem1606.github.io/creativia' class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/Creativia.webp" type="image/webp">
-                            <img src="images/projects/Creativia.jpg" alt="Образец верстки">
-                        </picture>                         
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">Creativia</div>                            
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка одностраничного PSD макета</div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='https://artem1606.github.io/oursson' class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/Oursson.webp" type="image/webp">
-                            <img src="images/projects/Oursson.jpg" alt="Образец верстки">
-                        </picture>                          
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">Oursson</div>                            
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка многостраничного PSD макета</div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='https://artem1606.github.io/lian' class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/Lian.webp" type="image/webp">
-                            <img src="images/projects/Lian.jpg" alt="Образец верстки">
-                        </picture>                          
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">Lian</div>                            
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка многостраничного PSD макета</div>
-
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='https://artem1606.github.io/mmg' class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/MMG.webp" type="image/webp">
-                            <img src="images/projects/MMG.jpg" alt="Образец верстки">
-                        </picture>                         
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">MMG</div>                            
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка одностраничного PSD макета</div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='https://artem1606.github.io/surfingClub' class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/surfingClub.webp" type="image/webp">
-                            <img src="images/projects/surfingClub.jpg" alt="Образец верстки">
-                        </picture>                          
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">Surfing-club</div>                            
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка одностраничного PSD макета</div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='https://artem1606.github.io/start' class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/Start.webp" type="image/webp">
-                            <img src="images/projects/Start.jpg" alt="Образец верстки">
-                        </picture>                          
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">Start</div>                            
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка одностраничного PSD макета</div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='https://artem1606.github.io/zembra' class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/Zembra.webp" type="image/webp">
-                            <img src="images/projects/Zembra.jpg" alt="Образец верстки">
-                        </picture>                         
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">Zebra</div>                            
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка одностраничного PSD макета интернет магазина</div>
-
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='https://artem1606.github.io/decoblog' class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/Decoblog.webp" type="image/webp">
-                            <img src="images/projects/Decoblog.jpg" alt="Образец верстки">
-                        </picture>                         
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">Decoblog</div>                            
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка одностраничного PSD макета</div>
-
-                    </div><!-- works__item-img-->
-                </a><!-- works__item --> 
-                <a href='https://artem1606.github.io/luis' class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/Luis.webp" type="image/webp">
-                            <img src="images/projects/Luis.jpg" alt="Образец верстки">
-                        </picture>                         
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">Luis</div>                            
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка одностраничного PSD макета</div>
-
-                    </div><!-- works__item-img-->
-                </a><!-- works__item -->
-                <a href='https://artem1606.github.io/timber' class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <picture>
-                            <source srcset="images/projects/Timber.webp" type="image/webp">
-                            <img src="images/projects/Timber.jpg" alt="Образец верстки">
-                        </picture>                         
-                    </div>
-                    <div class="works__item-text">
-                        <div class="title">
-                            <div class="title__name">Timber</div>                            
-                        </div>
-                        <div class='works__item-info'>Адаптивная верстка одностраничного PSD макета строительной компании</div>
-
-                    </div><!-- works__item-img-->
-                </a><!-- works__item --> 
-            </div><!-- works__samples -->
-            <div class="works__buttons">
-             <div class="btn">
-               <div class="button works__button">Показать больше</div>
-           </div><!-- btn -->
-           <div class="btn">
-               <div class="button button works__button works__button--hide">скрыть</div>
-           </div><!-- btn -->
-       </div><!-- buttons -->
-     </div><!-- container -->
-    </section><!-- .works -->
-    
-    <section class="about" id="about">
-        <div class="container about__container">
-            <div class="about__avatar">             
-                <div class="about__avatar-image">
-                    <div class="about__avatar-background"><!-- about__avatar-background -->                     
-                 </div><!-- about__avatar-background -->
-                 <picture>
-                     <source srcset="images/photo_two.webp" type="image/webp">
-                     <img src="images/photo_two.png" alt="Фотография разработчика">
-                 </picture>                    
-             </div><!-- about__avatar-image -->
-         </div><!-- about__avatar -->
-         <div class="about__info">
-            <div class="about__info-title">
-                <h3 class="about__info-title--top">
-                    обо мне
-                </h3>
-                <h2 class="about__info-title--bottom">
-                    кто я есть
-                </h2>           
-            </div><!-- about__info-title -->
-            <div class="about__info-text">
-                <p>Меня зовут Бакум Артем. Я фронтенд разработчик. Занимаюсь версткой сайтов и
-                 программированием на React. Мои главные цели - это создать максимально удобный интерфейс для пользователя,
-                 надежная верстка, которая не будет ломаться при добавлении текста или замене элементов,
-                 отзывчивость и адаптивность под любые расширения экрана, хорошие показатели скорости 
-                 загрузки, корректное отображение на всех современных браузерах.
-             </p>
-             </div><!-- about__info-text -->
-             <div class="buttons"> 
-                 <a href="https://t.me/Artem19811606" class="button button-write button--left">написать мне</a>                 
-             </div><!-- introduce__info --> 
-            </div><!-- about__info -->
-        </div><!-- container -->
-    </section><!-- about -->
-
-   
-<footer class="footer" id="footer">
-   <div class="container footer__container"> 
-    <div class="footer__block--left">              
-            <div class="footer__social">
-                <a href='https://t.me/Artem19811606' class="social-icon telegram"><img src="images/Icons/telegramFooter.svg" alt="Icon"></a>
-                <a href='https://join.skype.com/invite/fJEsoWVzNQq9' class="social-icon skype"><img src="images/Icons/skypeFooter.svg" alt="Icon"></a>
-                <a href='https://ok.ru/artem.bakum' class="social-icon classmates"><img src="images/Icons/odnoklassnikiFooter.svg" alt="Icon"></a>
-                <a href='https://www.facebook.com/profile.php?id=100051063345712' class="social-icon fb"><img src="images/Icons/facebookFooter.svg" alt="Icon"></a>
-                <a href='https://vk.com/a.bakum' class="social-icon vk"><img src="images/Icons/vkFooter.svg" alt="Icon"></a>                
-            </div>
-   
-       </div><!-- footer__block--left -->
-
-         <div class="footer__block--right"> 
-            <div class="hamburger footer__hamburger hamburger--collapse">
-              <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-            </span>
-            </div><!-- hamburger --> 
-            <ul class="footer__menu">                
-               <li><a href="#">Работы</a></li>
-               <li><a href="#">Обо мне</a></li>               
-               <li><a href="#">Контакты</a></li>
-            </ul>
-            <div class="footer__social footer__social--hide">
-                <a href='https://t.me/Artem19811606' class="social-icon telegram"><img src="images/Icons/telegramFooter.svg" alt="Icon of telegram"></a>
-                <a href='https://join.skype.com/invite/fJEsoWVzNQq9' class="social-icon skype"><img src="images/Icons/skypeFooter.svg" alt="Icon of skype"></a>
-                <a href='https://ok.ru/artem.bakum' class="social-icon classmates"><img src="images/Icons/odnoklassnikiFooter.svg" alt="Icon of classmates"></a>
-                <a href='https://www.facebook.com/profile.php?id=100051063345712' class="social-icon fb"><img src="images/Icons/facebookFooter.svg" alt="Icon of facebook"></a>
-                <a href='https://vk.com/a.bakum' class="social-icon vk"><img src="images/Icons/vkFooter.svg" alt="Icon of contact"></a>                
-             </div>   
-        <a href='https://t.me/Artem19811606' class="button">написать мне</a> 
-     </div><!-- footer__block--right -->
-    </div>
-     <!-- container -->
- </footer>
-</div>    
-<!-- /.wrapper -->
-
-<script src="js/app.min.js"></script>
-
+	<div class="top">
+		<i class="fa fa-arrow-up"></i>
+	</div>
+	<!-- /.top -->
+	<img src="img/Слой 27 копия.svg" alt="">
+	
+	<script src="js/scripts.min.js"></script>
+	<script src="libs/slick/slick.js"></script>
 </body>
-
 </html>
