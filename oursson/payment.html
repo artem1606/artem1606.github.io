@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Payment</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+	<style>
+
+		.choice{
+			border-bottom: 2px solid #EEEEEE;
+			padding-bottom: 8px;
+		}
+		.choice .balls .ball{
+			margin-right: 7px;
+			width: 22px;
+			height: 22px;			
+			border-radius: 50%;
+			cursor: pointer;
+						
+		}
+
+		 .choice .balls .ball1{
+			background-color: #FF5D5D;
+			position: relative;
+		}
+		 .choice .balls .ball2{
+			background-color: #E3FC9B;
+			position: relative;
+		}
+		 .choice .balls .ball3{
+			background-color: #71B9F3;
+			position: relative;
+		}
+		 .choice .balls .ball4{
+			background-color: #FBF8D0;
+			position: relative;
+		}
+		
+		.triangle{
+			position: absolute;
+			width: 0;
+			height: 0;
+			border-bottom:  9px solid #C5C5C5;
+			border-left: 12px solid transparent;
+			border-right:  12px solid transparent;
+			top: 25px;
+
+		}
+
+		.new .choice{
+			border-bottom: 2px solid #ECECEC;
+			padding-bottom: 10px;
+		}
+		
+		.new > h2{
+			font-size: 10px;
+		}
+		.description {
+					
+			border-bottom: 1px solid #ECECEC;
+		}
+
+
+	 	.description .short_description{
+			
+			border-bottom: 1px solid #ECECEC;
+		}
+		.smart{
+			line-height: 0;
+			padding-top: 20px;			
+		}
+
+		.smart p{
+			color: #000; 
+		}
+
+		.soc{
+
+			padding-bottom: 20px;
+			border-bottom: 1px solid #ECECEC;
+		}
+
+		.soc button{
+			outline: none;
+			border: none;
+			vertical-align: middle;
+			border-bottom-right-radius: 10px
+			
+
+		}
+		
+		.technique{
+			border: 7px solid transparent;
+			border-image: url("img/frame.png") 5 stretch;
+			padding: 5px;
+			margin-top: 10px;
+		}
+
+		.cook-sliders{
+			margin-top: 30%;
+			
+		}
+		.cook-sliders .prev{
+			margin-left: -35px;
+		}
+		.cook-sliders .next{
+			margin-right:  -30px;
+		}
+
+		.cook-sliders .cook-slider{
+			margin-left: 40px;
+		}
+		@media screen and (max-width: 768px){
+			.cook-sliders{
+			margin-bottom: 30%;
+			
+		}
+			.cook-sliders .cook-slider{
+				margin-left: 80px;
+				
+		}
+		@media screen and (max-width: 576px){
+			.cook-sliders .next{
+				margin-right: 0%;
+		}
+			.cook-sliders .prev{
+				margin-left: 0%;
+		}
+		
+		@media screen and (max-width: 400px){
+			.cook-sliders .cook-slider{
+				margin-left: 55px;
+			}		
+		}
+		@media screen and (max-width: 350px){
+			.cook-sliders .cook-slider{
+				margin-left: 40px;
+			}		
+		}
+	</style>
+		
+
+</head>
+
+<body>
+		<header class="header" id="header">
+			<button class="hamburger hamburger--collapse" type="button">
+			  <span class="hamburger-box">
+			    <span class="hamburger-inner"></span>
+			  </span>
+			</button>
+			<div class="container">
+				<div class="header_logo">
+					<div class="row">						
+						<div class="offset-lg-1 col-lg-3">
+							<h1>free<span>psd</span></h1>
+							<p>макеты на любой вкус</p>
+						</div>
+						<!-- /.col-lg-3 -->
+					</div><!-- /.row -->
+				</div><!-- header_logo -->
+				<div class="header__menu">
+					<div class="row justify-content-lg-center ">
+						<div class="col-sm-auto">
+							<nav>
+								<ul class='nav__menu'>
+									<li ><a  href="index.html">О магазине</a></li>
+									<li class='active'><a href="payment.html">Оплата</a></li>
+									<li><a href="delivery.html">Доставка</a></li>
+									<li><a href="support.html">Поддержка</a></li>
+									<li><a href="news.html">Новости</a></li>
+									<li><a href="contact.html">Контакты</a></li>
+								</ul>
+							</nav>
+						</div>	
+					</div><!-- row -->
+					
+				</div><!-- header__menu -->
+			</div>
+				
+			
+		</header>
+		<!-- /#header.header -->
+	
+		
+		<section class="info" id="info">
+			<div class="container">
+					
+				<div class="title">
+					<div class="row justify-content-between">
+						<div class="col-lg-auto">
+							<small>Oursson <span>&rarr;</span>Каталог<span>&rarr;</span>Кухонные процессоры</small>
+						</div><!-- col-lg-auto -->
+						<div class="col-lg-auto">
+							<h2>О компании</h2>
+						</div><!-- col-lg-auto -->
+					</div>
+					<!-- /.row -->
+				</div>
+				<!-- /.title -->
+				<div class="row ">
+					<div class="col-12">
+						<div class="border"></div>
+						<!-- /.border -->
+					</div>
+					<!-- /.col-12 -->
+				</div>
+				<div class="row">
+				<div class="col-lg-3">
+					<div class="left-sidebar">
+						<ul class='price'>
+							<li><a href="#">Техника</a>
+								
+							<li><a href="#">Посуда для <br> приготовления пищи</a>
+								
+							<li><a href="#">Посуда для хранения продуктов</a>
+								
+							<li><a href="#">Специальные предложения</a>
+									
+							</li>			
+
+						</ul>
+						<div class="contacts">
+							<h3>Реквизиты</h3>
+							<p>г Минск ул. Энтузиастов 84</p>
+							<p>ИНН 3316007270,</p>  
+							<p>кор. счёт 30101810200000000716, Р/с</p> 
+							<p>40703810612260000004</p>
+						</div>
+						<!-- /.contacts -->
+					</div>
+					<!-- /.left-sidebar -->
+				</div>
+				<!-- /.col-lg-6 -->
+				<div class="col-lg-5">
+						<img src="img/Блендер.png" alt="Мультиварка">
+						<p>Выберите цвет:</p>
+						<div class="choice d-flex justify-content-between">
+							<div class="balls d-flex"><!-- balls -->
+								<div class="ball  ball1">
+									<div class="triangle"></div>
+									<!-- /.tringle -->
+								</div>
+								<div class="ball ball2">
+									<div class="triangle"></div>
+									<!-- /.tringle -->
+								</div>
+								<div class="ball ball3">
+									<div class="triangle"></div>
+									<!-- /.tringle -->
+								</div>
+								<div class="ball ball4">
+									<div class="triangle"></div>
+									<!-- /.tringle -->
+								</div>
+							</div>
+							<img src="img/search_magnifier.png" alt="Поиск">
+						</div><!-- choice -->
+						<div class="cook-sliders">
+							<div class="cook-slider">
+								<img src="img/Мульти.png" alt="Мультиварка">
+							</div>
+							<!-- /.cook-slider -->
+							<div class="cook-slider">
+								<img src="img/Мульти.png" alt="Мультиварка">
+							</div>
+							<!-- /.cook-slider -->
+							<div class="cook-slider">
+								<img src="img/Мульти.png" alt="Мультиварка">
+							</div>
+							<!-- /.cook-slider -->
+							<div class="cook-slider">
+								<img src="img/Мульти.png" alt="Мультиварка">
+							</div>
+							<!-- /.cook-slider -->
+							<div class="cook-slider">
+								<img src="img/Мульти.png" alt="Мультиварка">
+							</div>
+							<!-- /.cook-slider -->
+							<div class="cook-slider">
+								<img src="img/Мульти.png" alt="Мультиварка">
+							</div>
+							<!-- /.cook-slider -->
+						</div>
+						<!-- /.cook-sliders -->
+
+				</div>
+				<!-- /.col-lg-5 -->		
+				<div class="col-lg-4">
+					<div class="technique"><div class="description">
+							<div class="title">
+								<h3>Мультиварка высокого 
+								давления   MP46FDA</h3>
+								<p class="title-text">Артикул: 18167891365981132</p>
+								<p class="title-text">Цвет: Слоновая кость</p>
+							</div><!-- title -->
+							<div class="short_description">
+								<p>Краткоре описание техники... Краткоре описание техники... Краткоре описание техники... </p>
+							</div><!-- short_description -->
+							<p>Обьём плоскости для 
+							приготовления, п...................................................5</p>
+							<p>Приготовление под давлением........................Да</p>
+							<p>Приготовление на пару......................................Да</p>
+							<p>Управление.....................Электронное</p>
+							<p>Количество автоматических</p>
+							<p>программ....................................11</p>
+							<p>Количество уровней защиты...................11</p>
+							<p>Книга рецептов.......................................Да</p>
+							
+						
+						
+						</div>
+						<!-- /.description -->
+					
+						<div class="smart">					
+							<p>В товаре используется технология: SMART</p>
+							<p>Этот товар на Яндекс-маркете</p>					
+						</div><!-- smart -->
+										
+						<div class="soc">
+							<button>Поделиться</button>
+							<img src="img/facebook.png" alt="facebook">
+							<img src="img/twitter.png" alt="twitter">
+							<img src="img/vk.png" alt="vk">
+							<img src="img/wifi.png" alt="wifi">
+							<img src="img/google.png" alt="google">
+						</div>
+						<!-- /.soc -->
+						<div class="price">
+							<p>136763 руб</p>			
+						</div>
+						<!-- /.price -->
+					</div><!-- </div>technique -->
+				</div><!-- col-lg-4 -->
+			</div>
+		
+		</section>				
+		
+		<!-- /#new.new -->
+		
+			
+				<div class="row ">
+					<div class="col-12">
+						<div class="border"></div>
+						<!-- /.border -->
+					</div>
+					<!-- /.col-12 -->									
+				</div> <!-- row -->
+			</div><!-- container -->
+		
+		
+		<section class="action" id="action">
+			<h2>Акции</h2>
+			<div class="action-sliders">
+				<div class="action-slider">
+					<img src="img/Новинка.png" alt="Новинка">
+					<h3>MP46FDA</h3>
+					<p>Краткое описание <br> техники... Краткое <br> описание техники... <br>Краткое описание  <br>техники... </p>
+				</div><!-- action-slider -->
+
+				<div class="action-slider">
+					<img src="img/Новинка.png" alt="Новинка">
+					<h3>MP46FDA</h3>
+					<p>Краткое описание <br> техники... Краткое <br> описание техники... <br>Краткое описание  <br>техники... </p>
+				</div><!-- action-sliders -->
+				
+				<div class="action-slider">
+					<img src="img/Новинка.png" alt="Новинка">				
+					<h3>MP46FDA</h3>
+					<p>Краткое описание <br> техники... Краткое <br> описание техники... <br>Краткое описание  <br>техники... </p>
+				</div><!-- action-sliders -->
+
+				<div class="action-slider">
+					<img src="img/Новинка.png" alt="Новинка">
+					<h3>MP46FDA</h3>
+					<p>Краткое описание <br> техники... Краткое <br> описание техники... <br>Краткое описание  <br>техники... </p>
+				</div><!-- action-sliders -->
+			
+			</div>
+			<!-- action-sliders -->
+
+			
+		</section>
+		<!-- /#action.action -->
+		
+		<section class="advantages" id="advantages">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-auto">
+						<h2>Преимущества</h2>
+				</div><!-- /.col-auto -->
+			</div><!-- row -->	
+						<div class="row">
+							<div class="col-md-6 ">
+								<div class="advantage d-flex align-items-center">
+									<img src="img/медаль.png" alt="Медаль">
+									<div class="text">
+										<h4>Гарантия качества</h4>
+										<p>Новый ручной блендер для хозяек, знающих цену каждой минуте. Его не только приятно держать в руках, несложно мыть и жалко убирать на место. </p>
+									</div>
+									<!-- /.text -->
+								</div>
+								<div class="advantage d-flex align-items-center">
+									<img src="img/bag.png" alt="Сумка">
+									<div class="text">
+										<h4>Доставка по всей Беларусии</h4>
+										<p>Новый ручной блендер для хозяек, знающих цену каждой минуте. Его не только приятно держать в руках, несложно мыть и жалко убирать на место. </p>
+									</div>
+									<!-- /.text -->
+								</div>
+								<div class="advantage d-flex align-items-center">
+									<img src="img/ikonki-transport.png" alt="Машина">
+									<div class="text">
+										<h4>Надёжный сервис</h4>
+										<p>Новый ручной блендер для хозяек, знающих цену каждой минуте. Его не только приятно держать в руках, несложно мыть и жалко убирать на место. </p>
+									</div>
+									<!-- /.text -->
+								</div>
+							</div>
+							<!-- /.col-md-6  -->
+							<div class="col-md-6 ">
+								<div class="advantage d-flex align-items-center">
+									<img src="img/icon_calc_240.png" alt="Калькуляция">
+									<div class="text">
+										<h4>Честные цены</h4>
+										<p>Новый ручной блендер для хозяек, знающих цену каждой минуте. Его не только приятно держать в руках, несложно мыть и жалко убирать на место. </p>
+									</div>
+									<!-- /.text -->
+								</div>
+								<div class="advantage d-flex align-items-center">
+									<img src="img/tools.png" alt="Инструменты">
+									<div class="text">
+										<h4>Кредит «не выходя из дома»</h4>
+										<p>Новый ручной блендер для хозяек, знающих цену каждой минуте. Его не только приятно держать в руках, несложно мыть и жалко убирать на место. </p>
+									</div>
+									<!-- /.text -->
+								</div>
+								<div class="advantage d-flex align-items-center">
+									<img src="img/sale.png" alt="Покупки">
+									<div class="text">
+										<h4>Выгодные покупки</h4>
+										<p>Новый ручной блендер для хозяек, знающих цену каждой минуте. Его не только приятно держать в руках, несложно мыть и жалко убирать на место. </p>
+									</div>
+									<!-- /.text -->
+								</div>
+							</div>
+							<!-- /.col-md-6  -->
+						</div><!-- row -->				
+					</div>
+			<!-- /.container -->
+
+		</section>
+			<footer class="footer" id="footer">
+				<button class="hamburger hamburger--collapse" type="button">
+				  <span class="hamburger-box">
+				    <span class="hamburger-inner"></span>
+				  </span>
+				</button>
+				<div class="container">
+						<div class="footer__menu">
+							<div class="row justify-content-lg-center ">
+								<div class="col-sm-auto">
+									<nav>
+										<ul class="footer__nav__menu d-flex">
+											<li><a href="index.html">О магазине </a></li>
+											<li><a href="payment.html">Оплата</a></li>
+											<li><a href="delivery.html">Доставка</a></li>
+											<li><a href="support.html">Поддержка</a></li>
+											<li><a href="news.html">Новости</a></li>
+											<li><a href="contact.html">Контакты</a></li>
+										</ul>
+										<!-- /.nav_menu -->
+									</nav>
+								</div><!-- col-lg-auto -->
+
+							</div><!-- row -->
+							
+						</div><!-- footer__menu -->
+
+						<div class="hidden_menu">
+						<ul >
+							<li><a href="index.html">О магазине </a></li>
+							<li><a href="payment.html">Оплата</a></li>
+							<li><a href="delivery.html">Доставка</a></li>
+							<li><a href="support.html">Поддержка</a></li>
+							<li><a href="news.html">Новости</a></li>
+							<li><a href="contact.html">Контакты</a></li>
+						</ul>
+							
+					</div>
+						<div class="row align-items-center justify-content-center">
+							<div class="col-sm-6 col-lg-3 ">
+								<div><img src="img/logo-contact.jpg.png" alt="contact"></div>
+								<div><img src="img/google-logo.png" alt="google"></div>
+							</div>
+							<!-- /.col-lg-3 -->
+							<div class="col-sm-6 col-lg-3">
+								<div class="time__table">
+									<p>Время работы Пн - ПТ</p>
+									<p>с 8-00 до 20-00</p>
+								</div><!-- time__table -->
+							</div>
+							<!-- /.col-lg-3 -->
+							<div class="col-sm-6 col-lg-3">
+								<div class="phone">
+									<p>8 (495) 510 27 27</p>
+									<p>8 (800) 100 05 56</p>
+								</div><!-- phone -->
+							</div>
+							<!-- /.col-lg-3 -->
+							<div class="col-sm-6 col-lg-3">
+								<div class="block">
+									<img src="img/footer-logo.png" alt="logo">
+									<p>Разработка сайта</p>
+								</div><!-- block -->
+							</div>
+							<!-- /.col-lg-3 -->
+						</div>
+						<!-- /.row -->
+					
+				</div>
+				<!-- /.container -->	
+		
+			</footer>
+
+			
+			<i class="fa fa-arrow-up"></i>
+
+	<a  href="https://artem1606.github.io/newPortfolio/"  style='position: fixed; bottom: 20px; left: 30px;color: rgba(255, 255, 255, 0.3); text-decoration: none; font-size: 18px;'>Назад</a>   
+	 
+
+			
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
