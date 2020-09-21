@@ -1,0 +1,2 @@
+[2019-08-19 23:03:19] layer "+7 (585) 277-22-17       ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-08-19 23:03:19] layer " +7 (585) 277-22-17   namename@gmail.com": Expected Either a default asset specification or a layer asset specification but " " found.
