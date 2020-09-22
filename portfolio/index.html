@@ -1,554 +1,200 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 
 	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
 	<title>Portfolio</title>
-	<meta name="description" content="Startup HTML template OptimizedHTML 5">
-	<meta name="viewport" content="width=device-width">
-	<link rel="icon" href="images/favicon.png">
-	<meta property="og:image" content="images/dest/preview.jpg">
-	<link rel="stylesheet" href="css/app.min.css">
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="libs/slick/slick-theme.css">
+	<link rel="stylesheet" href="libs/slick/slick.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.min.css">
 
 </head>
 
 <body>
 
-	<!-- CUSTOM HTML -->
+	<!-- Custom HTML -->
+	<div class="container">			
+		<header class="header" style="background-image: url(img/bg.jpg);">		
+			<div class="text" >
+				<h1>Бакум Артем</h1>
+				<p>Кроссбраузерная, адаптивная верстка <br>сайтов на HTML и CSS</p>
+				<p>HTML5 CSS3 JS jQuery</p>
+			</div><!-- text -->	
+			<i class="fa fa-angle-down"></i>				
+		</header>		
+<!-- /.header -->
+	</div><!-- /.container -->
+				
+	<section class="portfolio">
+		<div class="container">
+			<h2>Портфолио</h2>			
+				<div class="sliders">					
+					<div class="slider">
+						<a href="gosuf/index.html">						
+							<img src="img/gosuf.png" alt="Проект">
+						</a>
+						<a href="gosuf/index.html"><h3>gosuf</h3></a>
+						<p>Адаптивная верстка сложного одностраничного PSD макета с применением анимации</p>
+					</div>								
+					<div class="slider">
+						<a href="ASUSS/index.html"><picture>
+							<source srcset="img/asuss.webp" type="image/webp">
+							<img src="img/asuss.png" alt="Проект">
+						</picture></a>
+						<a href="ASUSS/index.html"><h3>asuss</h3></a>
+						<p>Адаптивная верстка одностраничного PSD макета с применением анимации</p>
+					</div>
+					
+					<div class="slider">
+						<a href="MMG/index.html"><picture>
+							<source srcset="img/mmg.webp" type="image/webp">
+							<img src="img/mmg.png" alt="Проект">
+						</picture></a>
+						<a href="MMG/index.html"><h3>mmg</h3></a>
+						<p>Верстка одностраничного PSD макета</p>
+					</div>				
+				<div class="slider">
+					<a href="Creativia/index.html"><picture>
+						<source srcset="img/Creativia.webp" type="image/webp">
+						<img src="img/Creativia.png" alt="Проект">
+					</picture></a>
+					<a href="Creativia/index.html"><h3>Creativia</h3></a>
+					<p>Верстка одностраничного сайта. Адаптация под мобильные устроства.</p>
+				</div>MMG
+				<div class="slider">
+					<a href="Lian/index.html"><picture>
+						<source srcset="img/Lian.webp" type="image/webp">
+						<img src="img/Lian.png" alt="Проект">
+					</picture></a>
+					<a href="Lian/index.html"><h3>Lian</h3></a>
+					<p>Адаптивная верстка многостраничного  PSD макета</p>	
+				</div>
 
-<div class="wrapper">
-    <header class="header" id='header'>        
-        <div class="container header__container"> 
-             <div class="hamburger hamburger--collapse" type="button">
-              <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-            </span>
-            </div><!-- hamburger -->          
-            <div class="header__el-flex header__avatar">
-                <div class="icon"><img src="images/avatar__photo.png" alt="Icon">
-                </div>
-                <!-- /.icon -->
-                <div class="header__avatar-text">
-                    <p class="name">Lewis 
-                    Nathaniel</p>
-                    <p class="profession">UI & UX Designer</p>
-                </div>
-                <!-- /.header__avatar-text -->
-            </div>
-            <!-- /.header__avatar -->
+				<div class="slider">
+					<a href="Oursson/index.html"><picture>
+						<source srcset="img/Oursson.webp" type="image/webp">
+						<img src="img/Oursson.png" alt="Проект">
+					</picture></a>
+					<a href="Oursson/index.html"><h3>Oursson</h3></a>
+					<p>Адаптивная верстка многостраничного  PSD макета магазина кухонной техники</p>	
+				</div>
+				<div class="slider">
+					<a href="home/index.html"><picture>
+						<source srcset="img/home.webp" type="image/webp">
+						<img src="img/home.png" alt="Проект">
+					</picture></a>
+					<a href="home/index.html"><h3>home</h3></a>
+					<p>Верстка одностраничного PSD макета строительной компании</p>
+				</div>
+				
+				<div class="slider">
+					<a href="Decoblog/index.html"><picture>
+						<source srcset="img/Decoblog.webp" type="image/webp">
+						<img src="img/Decoblog.png" alt="Проект">
+					</picture></a>
+					<a href="Decoblog/index.html"><h3>Decoblog</h3></a>
+					<p>Адаптивная верстка одностраничного  PSD макета</p>
+				</div>
+				<div class="slider">
+					<a href="zebra/index.html"><picture>
+						<source srcset="img/zebra.webp" type="image/webp">
+						<img src="img/zebra.png" alt="Проект">
+					</picture></a>
+					<a href="zebra/index.html"><h3>Zebra</h3></a>
+					<p>Верстка  PSD макета интернет магазина</p>
+				</div>
+				<div class="slider">
+					<a href="start/index.html"><picture>
+						<source srcset="img/start.webp" type="image/webp">
+						<img src="img/start.png" alt="Проект">
+					</picture></a>
+					<a href="start/index.html"><h3>Start</h3></a>
+					<p>Адаптивная верстка одностраничного PSD макета</p>
+				</div>
+				<div class="slider">
+					<a href="surfingClub/index.html"><picture>
+						<source srcset="img/surfingClub.webp" type="image/webp">
+						<img src="img/surfingClub.png" alt="Проект">
+					</picture></a>
+					<a href="surfingClub/index.html"><h3>surfingClub</h3></a>
+					<p>Адаптивная верстка одностраничного PSD макета</p>
+				</div>
+				
+				
+			<div class="slider">
+				<a href="Luis/index.html"><picture>
+					<source srcset="img/Luis.webp" type="image/webp">
+					<img src="img/Luis.png" alt="Проект">
+				</picture></a>
+				<a href="Luis/index.html"><h3>Luis Ourenrique</h3></a>
+				<p>Адаптивная верстка одностраничного  PSD макета</p>
+			</div>
+			</div>
+		</div><!-- container -->
+	</section>
+	<!-- /.portfolio -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row justify-content-center justify-content-lg-around  align-items-start">
+				<div class="col-9 col-md-auto">
+					<div class="block name">
+						<h3>Бакум Артем</h3>
+						<p>HTML верстка и разработка сайтов</p>
+					</div>
+				</div>
+				<!-- /.col-lg-4 -->
+				<div class="col-9 col-md-auto">
+					<p>Мои профили в социальных сетях</p>
+					<div class="block cos d-flex j justify-content-around">
+						<a href="https://vk.com/id422379637">
+							<i class="fa fa-vk"></i></a>		
+						<a href="https://ok.ru/profile/565388341183">
+							<i class="fa fa-odnoklassniki"></i></a>
+					</div>
+					<!-- /.cos -->
+					
+				</div>
+				<!-- /.col-lg-4 -->
+				<div class="col-9 col-md-auto">
+					<div class="block contact">
+						<div class="button"><a href="https://vk.com/id422379637">Связаться в контакте</a></div>
+						<p>Напишите мне, чтобы заказать или узнать<br>
+						стоимость верстки вашего проекта</p> 
+					</div><!-- contact -->
+				</div>
+				<!-- /.col-lg-4 -->
+			</div>
+			<!-- /.row -->
+		</div><!-- container -->
+	</footer>
 
-            <div class="header__el-flex header__menu">
-                <nav class="header__menu-nav">
-                    <ul class="header__menu-list">
-                       <li><a href="#">work</a></li>
-                       <li><a href="#">about me</a></li>
-                       <li><a href="#">blog</a></li>
-                       <li><a href="#">contact</a></li>
-                   </ul>
-                   <!-- /.nav-menu -->
-               </nav>         
-            </div>
-            <!-- /.header__menu -->
-            <a href="#" class="header__el-flex button">hire me</a>
-        </div><!-- /.container header__container --> 
-    </header> <!-- /.header -->
-
-    <section class="introduce" id="introduce">
-     <div class="container introduce__container">
-        <div class="introduce__info">   
-          <div class="introduce__title"
-          >
-          <h2>Hello, I’m</h2>
-          <h1>Lewis Nathaniel</h1>
-          <p>UI & UX Designer</p>
-
-      </div><!-- introduce__title -->
-      <div class="introduce__socials">
-        <div class="block-one">
-            <a href='#' class="social-icon behance"><img src="images/Icons/behance.svg" alt="Icon"></a>
-            <a href='#' class="social-icon dribble"><img src="images/Icons/dribbble.svg" alt="Icon"></a>
-            <a href='#' class="social-icon in"><img src="images/Icons/linkedin.svg" alt="Icon"></a>
-        </div>
-        <div class="block-two">
-            <a href='#' class="social-icon fb"><img src="images/Icons/facebook.svg" alt="Icon"></a>
-            <a href='#' class="social-icon instagram"><img src="images/Icons/instagram.svg" alt="Icon"></a>
-            <a href='#' class="social-icon twitter"><img src="images/Icons/twitter.svg" alt="Icon"></a> 
-        </div>
-    </div> <!-- introduce__socials -->
-    <div class="buttons"> 
-        <a href="#" class="button button--left">hire me</a>
-        <a href="#" class="button button--right">see my resume</a></div>
-    </div><!-- introduce__info --> 
-    <div class="introduce__photo" style='background-image: url(images/symbols.png);'>
-     <img src="images/designer_photo.png" alt="photo">           
-    </div><!-- introduce__photo -->    
-    </div><!-- container -->
-    </section><!-- introduce -->
-
-    <section class="works" id="works">
-        <div class="container works__container">
-            <div class="works__nav">
-                <a href="#" class="works__nav-link">All</a>
-                <a href="#" class="works__nav-link">App</a>
-                <a href="#" class="works__nav-link">Website</a>
-                <a href="#" class="works__nav-link">Interaction</a>        
-            </div><!-- works__nav -->
-            <div class="works__samples">
-                <a href='#'class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="images/projects/Gosuf.jpg">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">category</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='#'class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="images/projects/Assus.jpg">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">category</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='#'class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="images/projects/Creativia.jpg">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">category</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='#'class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="images/projects/Oursson.jpg">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">category</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='#'class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="images/projects/Lian.jpg">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">category</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='#'class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="images/projects/MMG.jpg">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">category</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='#'class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="images/projects/surfingClub.jpg">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">category</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='#'class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="images/projects/Start.jpg">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">category</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='#'class="works__item">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="images/projects/Zembra.jpg">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">category</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item -->
-                </a><!-- works__item -->
-                <a href='#'class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="images/projects/Decoblog.jpg">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">category</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item-img-->
-                </a><!-- works__item --> 
-                <a href='#'class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="images/projects/Luis.jpg">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">category</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item-img-->
-                </a><!-- works__item -->
-                <a href='#'class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="images/projects/Timber.jpg">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">category</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item-img-->
-                </a><!-- works__item --> 
-                <a href='#'class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.depositphotos.com%2Fstock-photos%2F%25D1%258F%25D1%2580%25D0%25BA%25D0%25B8%25D0%25B5.html&psig=AOvVaw0mJf9B46cjoFgRD1hw5MBS&ust=1599494273595000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPj8nq3y1OsCFQAAAAAdAAAAABAG">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">4</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item-img-->
-                </a><!-- works__item --> 
-                <a href='#'class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fklike.net%2F1884-krasivye-kartinki-na-oboi-40-foto.html&psig=AOvVaw0mJf9B46cjoFgRD1hw5MBS&ust=1599494273595000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPj8nq3y1OsCFQAAAAAdAAAAABAO">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">5</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item-img-->
-                </a><!-- works__item -->
-                <a href='#'class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbipbap.ru%2Fkrasivye-kartinki%2Fkrasivye-kartinki-volki-40-foto.html&psig=AOvVaw0mJf9B46cjoFgRD1hw5MBS&ust=1599494273595000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPj8nq3y1OsCFQAAAAAdAAAAABAU">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">6</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item-img-->
-                </a><!-- works__item --> 
-                <a href='#'class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.depositphotos.com%2Fstock-photos%2F%25D1%258F%25D1%2580%25D0%25BA%25D0%25B8%25D0%25B5.html&psig=AOvVaw0mJf9B46cjoFgRD1hw5MBS&ust=1599494273595000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPj8nq3y1OsCFQAAAAAdAAAAABAG">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">7</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item-img-->
-                </a><!-- works__item --> 
-                <a href='#'class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fklike.net%2F1884-krasivye-kartinki-na-oboi-40-foto.html&psig=AOvVaw0mJf9B46cjoFgRD1hw5MBS&ust=1599494273595000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPj8nq3y1OsCFQAAAAAdAAAAABAO">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">8</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item-img-->
-                </a><!-- works__item -->
-                <a href='#'class="works__item item-hide">
-                    <div class="works__item-img">
-                    	<div class="image-bg"></div>
-                        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fbipbap.ru%2Fkrasivye-kartinki%2Fkrasivye-kartinki-volki-40-foto.html&psig=AOvVaw0mJf9B46cjoFgRD1hw5MBS&ust=1599494273595000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPj8nq3y1OsCFQAAAAAdAAAAABAU">
-                    </div>
-                    <div class="works__item-text">
-                        <p class="category">9</p>
-                        <div class="title">
-                            <div class="title__name">project title</div>
-                            <div class="title__date">2018</div>
-                        </div>
-                    </div><!-- works__item-img-->
-                </a><!-- works__item -->
-
-            </div><!-- works__samples -->
-            <div class="works__buttons">
-             <div class="btn">
-               <div class="button works__button">load more work</div>
-           </div><!-- btn -->
-           <div class="btn">
-               <div class="button button works__button works__button--hide">hide</div>
-           </div><!-- btn -->
-       </div><!-- buttons -->
-     </div><!-- container -->
-    </section><!-- .works -->
-    
-    <section class="about" id="about">
-        <div class="container about__container">
-            <div class="about__avatar">             
-                <div class="about__avatar-image">
-                    <div class="about__avatar-background"><!-- about__avatar-background -->                     
-                 </div><!-- about__avatar-background -->
-                 <img src="images/designer_image.png" alt="avatar">
-             </div><!-- about__avatar-image -->
-         </div><!-- about__avatar -->
-         <div class="about__info">
-            <div class="about__info-title">
-                <h3 class="about__info-title--top">
-                    about me
-                </h3>
-                <h2 class="about__info-title--bottom">
-                    who am i
-                </h2>           
-            </div><!-- about__info-title -->
-            <div class="about__info-text">
-                <p>Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. 
-                    Maecenas pellentesque eu enim eget luctus.
-                    Sed augue felis, facilisis et elementum vitae, 
-                    aliquam sit amet ante. Sed iaculis eros sem, elementum consequat est consequat eu. 
-                    Quisque aliquet a ipsum nec tincidunt. Nulla vitae rhoncus leo. Praesent dui sapien,
-                    bibendum quis tempus dictum, auctor ac dui. 
-                    Vestibulum ante ipsum primis in faucibus orci 
-                    luctus et ultrices posuere cubilia Curae; Donec 
-                    at mauris porta, ullamcorper sem quis, lobortis sem. Donec sit amet aliquet dui, 
-                    at varius est. Phasellus porttitor finibus neque 
-                    vel vehicula. Duis in nulla egestas, dignissim elit at, imperdiet eros. Integer tristique posuere purus.
-                    Suspendisse placerat, quam vitae ullamcorper sollicitudin, dui 
-                    ligula molestie massa, sit amet laoreet nibh ex vitae dui. Aenean laoreet pellentesque lacus, eget varius
-                    massa mattis 
-                 </p>
-             </div><!-- about__info-text -->
-             <div class="buttons"> 
-                 <a href="#" class="button button--left">hire me</a>
-                 <a href="#" class="button button--right">see my resume</a></div>
-             </div><!-- introduce__info --> 
-            </div><!-- about__info -->
-        </div><!-- container -->
-    </section><!-- about -->
-
-    <section class="reviews" id="reviews" style="background-image: url(images/bg.jpg);">
-        <div class="container reviews__container">
-            <div class="reviews__text">
-                <p class="review">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                Maecenas pellentesque eu enim eget luctus. 
-                Sed augue felis, facilisis et elementum vitae, aliquam sit amet ante.
-                Sed iaculis eros sem, elementum consequat est consequat eu. Quisque aliquet
-                a ipsum nec tincidunt. Nulla vitae rhoncus leo. 
-                Praesent dui sapien, bibendum quis tempus dictum.
-                </p>
-            </div><!-- reviews__text -->             
-            <div class="reviews__author">
-                <div class="reviews__author-avatar">
-                    <img src="images/avatar_photo.png" alt="Avatar">
-                </div>
-                <div class="reviews__author-data">
-                    <div class="name">Edward M. Brooks</div>
-                    <div class="project-name">
-                        <div>Marketing House</div>
-                    </div>
-                    <div class="stars">
-                        <img src="images/half_star.png" alt="star">
-                        <img src="images/half_star.png" alt="star">
-                        <img src="images/half_star.png" alt="star">
-                        <img src="images/half_star.png" alt="star">
-                        <img src="images/star.png" alt="star">
-                    </div>
-                </div>
-            </div><!-- reviews__author -->
-        </div><!-- container -->
-    </section><!-- reviews -->
-</div>
-
-<section class="news" id=news>
-    <div class="container news__container">
-        <div class="news__title">
-            <h2 class="news__title--top">read me</h2>
-            <div class="news__title--bottom">Sometimes i write something smart</div>
-        </div><!-- news__title -->
-        <div class="news__blocks">
-            <div class="news__blocks-block" >
-                <div class="news__blocks-img" style='background-image: url(images/cover_photo.png);'>
-                    <div class="date">10<br>june</div>
-                </div> <!-- news__blocks-img -->
-                <div class="news__blocks-text">
-                    <div class="news__blocks-title">
-                        <div class="news__blocks-title--top">
-                            ten the best app in 2017
-                        </div>
-                        <div class="news__blocks-title--bottom">
-                            category
-                        </div>
-                    </div><!-- news__blocks-text-title -->
-                    <div class="news__blocks-inner">
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                       Maecenas pellentesque eu enim eget luctus. Sed augue felis, 
-                       facilisis et elementum vitae, aliquam sit amet ante.
-                       Sed iaculis eros sem, elementum consequat. 
-                    </div><!-- news__blocks-inner -->  
-                </div><!-- news__blocks-text -->
-                <a class="news__block-button button">read more</a>
-            </div><!-- news__blocks-bloc -->
-            <div class="news__blocks-block" >
-                <div class="news__blocks-img" style='background-image: url(images/cover_photo.png);'>
-                    <div class="date">15<br>june</div>
-                </div><!-- news__blocks-img --> 
-                <div class="news__blocks-text">
-                    <div class="news__blocks-title">
-                        <div class="news__blocks-title--top">
-                            website inspiration
-                        </div>
-                        <div class="news__blocks-title--bottom">
-                            category
-                        </div>
-                    </div><!-- news__blocks-text-title -->
-                    <div class="news__blocks-inner">
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                       Maecenas pellentesque eu enim eget luctus. Sed augue felis, 
-                       facilisis et elementum vitae, aliquam sit amet ante.
-                        Sed iaculis eros sem, elementum consequat. 
-                    </div><!-- news__blocks-inner -->  
-                </div><!-- news__blocks-text -->
-                <a class="news__block-button button">read more</a>
-            </div><!-- news__blocks-bloc -->
-            <div class="news__blocks-block" >
-                <div class="news__blocks-img" style='background-image: url(images/cover_photo.png);'>
-                    <div class="date">20<br>june</div>
-                </div><!-- news__blocks-img --> 
-                <div class="news__blocks-text">
-                    <div class="news__blocks-title">
-                        <div class="news__blocks-title--top">
-                            changes in social media
-                        </div>
-                        <div class="news__blocks-title--bottom">
-                            category
-                        </div>
-                    </div><!-- news__blocks-text-title -->
-                    <div class="news__blocks-inner">
-                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                       Maecenas pellentesque eu enim eget luctus. Sed augue felis, 
-                       facilisis et elementum vitae, aliquam sit amet ante.
-                        Sed iaculis eros sem, elementum consequat. 
-                    </div><!-- news__blocks-inner -->
-                </div><!-- news__blocks-text -->
-                <a class="news__block-button button">read more</a>
-            </div><!-- news__blocks-bloc -->
-        </div><!-- news__blocks -->
-        <div class="show-posts">
-            <a href="#">See more posts</a>
-        </div><!-- show-posts -->
-    </div>
-    <!-- news__container -->
-
-</section><!-- news -->
-
-<footer class="footer" id="footer">
-   <div class="container footer__container"> 
-    <div class="footer__block--left">           
-            <div class="footer__policy">
-                © 2018 UI43 - Free Templates
-            </div><!-- footer__policy -->
-            <span class="line">|</span>
-            <div class="footer__social">
-                <a href='#' class="social-icon behance"><img src="images/Icons/behanceFooter.svg" alt="Icon"></i></a>
-                <a href='#' class="social-icon dribble"><img src="images/Icons/dribbbleFooter.svg" alt="Icon"></a>
-                <a href='#' class="social-icon in"><img src="images/Icons/linkedinFooter.svg" alt="Icon"></a>
-                <a href='#' class="social-icon fb"><img src="images/Icons/facebookFooter.svg" alt="Icon"></a>
-                <a href='#' class="social-icon instagram"><img src="images/Icons/instagramFooter.svg" alt="Icon"></a>
-                <a href='#' class="social-icon twitter"><img src="images/Icons/twitterFooter.svg" alt="Icon"></a> 
-            </div>
-   
-       </div><!-- footer__block--left -->
-
-         <div class="footer__block--right"> 
-            <div class="hamburger footer__hamburger hamburger--collapse" type="button">
-              <span class="hamburger-box">
-                <span class="hamburger-inner"></span>
-            </span>
-            </div><!-- hamburger --> 
-            <ul class="footer__menu">                
-               <li><a href="#">Work</a></li>
-               <li><a href="#">About Me</a></li>
-               <li><a href="#">Blog</a></li>
-               <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="footer__social footer__social--hide">
-                <a href='#' class="social-icon behance"><img src="images/Icons/behanceFooter.svg" alt="Icon"></i></a>
-                <a href='#' class="social-icon dribble"><img src="images/Icons/dribbbleFooter.svg" alt="Icon"></a>
-                <a href='#' class="social-icon in"><img src="images/Icons/linkedinFooter.svg" alt="Icon"></a>
-                <a href='#' class="social-icon fb"><img src="images/Icons/facebookFooter.svg" alt="Icon"></a>
-                <a href='#' class="social-icon instagram"><img src="images/Icons/instagramFooter.svg" alt="Icon"></a>
-                <a href='#' class="social-icon twitter"><img src="images/Icons/twitterFooter.svg" alt="Icon"></a> 
-             </div>   
-        <div class="button">hire me</div> 
-     </div><!-- container -->
-
-</footer>
-    
-<!-- /.wrapper -->
-
-<script src="js/app.min.js"></script>
-
+	<div class="top">
+		<i class="fa fa-arrow-up"></i>
+	</div>
+	<!-- /.top -->
+	<img src="img/Слой 27 копия.svg" alt="">
+	
+	<script src="js/scripts.min.js"></script>
+	<script src="libs/slick/slick.js"></script>
 </body>
-
 </html>
